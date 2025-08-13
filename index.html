@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mohamed Academy</title>
+  <link rel="icon" type="image/png" href="cat.jpg" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
+
+  <!-- Notyf -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+
+  <!-- Bootstrap (اختياري للـreset وبعض الutilities) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#"><span>Mohamed</span> Academy</a>
+
+      <nav class="nav">
+        <a href="#">المحتوى المقروء</a>
+      </nav>
+
+      <div class="header-actions">
+        <button id="themeToggle" class="btn-icon" aria-label="تبديل الوضع">
+          <i class="ri-sun-line"></i>
+      </div>
+    </div>
+
+
+    <!-- decorative gradient blobs -->
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero container">
+    <div class="hero-grid">
+      <div class="hero-visual">
+        <!-- غيّر الصورة دي لأي 3D PNG تحبه -->
+        <img src="/imgs/9215088.jpg"
+             alt="3D Illustration" loading="eager" />
+      </div>
+      <div class="hero-copy">
+        <h1>تعلّم البرمجة!</h1>
+        <p>بكل سهولة ومن أي مكان؛ ابدأ ببناء مهاراتك واصنع حلول تقنية للعالم.</p>
+        <div class="cta-row">
+          <a href="#" class="btn gradient cta" id="startBtn"><i class="ri-rocket-2-line"></i> ابدأ بالتعلم!</a>
+          <a href="#" class="btn ghost-lg"><i class="ri-play-circle-line"></i> شاهد مقدمة</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>+120</strong><span>درس</span></div>
+          <div><strong>+15</strong><span>مسار</span></div>
+          <div><strong>+20K</strong><span>متعلّم</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cards (glass) -->
+  <section class="cards container">
+    <article class="glass-card">
+      <div class="card-badge">جديد</div>
+      <h3>حسابنا الرسمي على X</h3>
+      <p>تابعونا لمواكبة أحدث الدروس والخدمات والإعلانات.</p>
+      <div class="actions">
+        <a href="#" class="btn soft"><i class="ri-twitter-x-line"></i> تابعنا الآن</a>
+      </div>
+    </article>
+
+    <article class="glass-card">
+      <h3>مسار Web Pentest</h3>
+      <p>من الأساسيات حتى استكشاف الثغرات: XSS, CSRF, IDOR, Logic Bugs والمزيد.</p>
+      <div class="actions">
+        <a href="#" class="btn soft"><i class="ri-shield-keyhole-line"></i> ابدأ المسار</a>
+      </div>
+    </article>
+
+    <article class="glass-card">
+      <h3>مجتمع Discord</h3>
+      <p>انضم لأسئلة مباشرة، تحديات، ومساعدة من المجتمع.</p>
+      <div class="actions">
+        <a href="#" class="btn soft" id="discordBtn"><i class="ri-discord-line"></i> انضم الآن</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- Product/Offer card like your cat example -->
+  <section class="offer container">
+    <div class="offer-card">
+      <img src="/imgs/cat.jpg" alt="cat" class="offer-img" />
+      <div class="offer-copy">
+        <h3>اشتري القطة بتاعتي (ببلاش 😄)</h3>
+        <ul>
+          <li>عندها مهارات 🐾</li>
+          <li>عمره الله اعلم</li>
+          <li>بتاكل كل حاجة</li>
+          <li>لونها أبيض قابل للتغيير 😂</li>
+        </ul>
+        <a href="#" class="btn gradient" id="buy"><i class="ri-shopping-bag-3-line"></i> شراء</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Designed & Developed by Mohamed Negm © 2025</p>
+      <div class="footer-links">
+        <a href="#">سياسة الخصوصية</a>
+        <a href="#">الشروط</a>
+        <a href="#">تواصل</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
